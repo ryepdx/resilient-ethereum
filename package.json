@@ -1,0 +1,32 @@
+{
+  "name": "resilient-ethereum",
+  "version": "0.0.1",
+  "description": "Provides automatic batching and retries for Ethereum transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NexusDevelopment/resilient-ethereum.git"
+  },
+  "keywords": [
+    "ethereum",
+    "queue",
+    "rpc",
+    "retry"
+  ],
+  "author": "ryepdx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NexusDevelopment/resilient-ethereum/issues"
+  },
+  "homepage": "https://github.com/NexusDevelopment/resilient-ethereum#readme",
+  "dependencies": {
+    "web3": "^0.15.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
